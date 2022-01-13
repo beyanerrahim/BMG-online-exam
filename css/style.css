@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap');
+
+.title1{
+    text-align: left;
+    padding: 30px;
+}
+.goodlucky{
+    font-size: 40px;
+    font-weight: bold;
+    color:rgb(211, 150, 81);
+    margin-left: 60px;
+    
+}
+.content{
+    margin: 40px;
+}
+.btn1 {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 0 4px;
+    border: 2px solid rgb(211, 150, 81);
+    text-transform: uppercase;
+    letter-spacing: 0.015em;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+    color: rgb(12, 12, 11);
+    text-decoration: none;
+    -webkit-transition: all 0.4s;
+       -moz-transition: all 0.4s;
+         -o-transition: all 0.4s;
+            transition: all 0.4s;
+  }
+  .btn1:hover {
+    color: rgb(12, 11, 10);
+    border-color: rgb(15, 15, 14);
+    background-color: #607d8b;
+  }
+a{
+      list-style: none;
+      text-decoration: none;
+}
+
+  /*login sayfasi */
+  
+.title{
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+    color:rgb(31, 29, 29) ;
+}
+.login-content{
+    position: relative;
+}
+
+.login-content{
+    width: 45%;
+    background: rgb(214, 192, 169);
+    padding: 50px ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 1px 1px 2px 2px;
+}
+.navdas{
+    margin-left: 20%;
+    text-align: right;
+}
+.mar{
+    margin: 0 10px;
+}
+.dashdord-nav{
+ width: 100%;
+  box-shadow: 0px 0px 2px 1px;
+}
+
+.anasayfabody{
+    width: 100%;
+    background-image: url(../image/exam1.jpg);
+    background-position:center center ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    font-family: "tajwal";
+}
+.bodylogin{
+    background-color: rgb(245, 242, 220);
+    font-family: "tajwal";
+
+}
